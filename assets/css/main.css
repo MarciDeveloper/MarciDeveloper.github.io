@@ -313,6 +313,11 @@ input, select, textarea {
 		border-left-color: #eeeeee;
 	}
 
+	h2#projects {
+		font-size: 68px;
+	}
+
+
 	code {
 		background: rgba(220, 220, 220, 0.25);
 		border-color: #eeeeee;
