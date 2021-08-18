@@ -3230,6 +3230,7 @@ input, select, textarea {
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
+		min-height: 100%;
 	}
 
 		#wrapper > .bg {
@@ -3238,12 +3239,11 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/pawel-nolbert-4u2U8EO9OzY-unsplash.jpg");
+			background-color: #36454f;
+			background: #0A0A0A;
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 		}
 
@@ -3735,7 +3735,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #00FFFF !important;
 						}
 
 		#nav ul.icons {
